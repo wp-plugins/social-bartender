@@ -1,9 +1,9 @@
 === Social Bartender ===
 Contributors: shakenstirred
-Tags: social networks, theme option, twitter, facebook 
+Tags: social, social networks, social links, social icons, theme option
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 A simple solution for adding a list of social network links (images or text) anywhere you want, with one little function.
 
@@ -13,7 +13,9 @@ Social Bartender adds a new settings page where you can create a list of social 
 
 == Installation ==
 
-To include the list of links in your theme, you need to place the following PHP function in the location where you want the links to appear:
+Option 1) Use the sidebar widget
+
+Option 2) Place the following PHP function in the location where you want the links to appear:
 
 `<?php social_bartender(); ?>`
 
@@ -21,9 +23,9 @@ If you would like to make your own icon set available to users in the Icon Box, 
 
 = Parameters =
 
-link_before: (string) Sets the text or html that precedes the <a> tag. Default = ''
+link_before: (string) Sets the text or html that precedes the `<a>` tag. Default = ''
 
-link_after: (string) Sets the text or html that follows the <a> tag. Default = ''
+link_after: (string) Sets the text or html that follows the `<a>` tag. Default = ''
 
 echo: (boolean) Toggles the display of the generated list of links or return the list as an HTML text string to be used in PHP. Default = 1
 
@@ -35,10 +37,14 @@ echo: (boolean) Toggles the display of the generated list of links or return the
 
 The Social Bartender plugin was created by Shaken and Stirred Web. If you find any bugs, have feature requests, or would like to contribute, please leave your feedback on the plugin's GitHub page.
 
-Contributors: @sawyerh, @devinsays, @NickHamze, and @thelukemcdonald
+Contributors on Twitter: @sawyerh, @devinsays, @NickHamze, and @thelukemcdonald
 
 == Changelog ==
 
-== 1.0 ==
+= 1.0 =
 
 * Initial release
+
+= 1.0.1 =
+
+* Widget added
