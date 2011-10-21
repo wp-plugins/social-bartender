@@ -40,14 +40,18 @@ echo: (boolean) Toggles the display of the generated list of links or return the
 
 The Social Bartender plugin was created by Shaken and Stirred Web. If you find any bugs, have feature requests, or would like to contribute, please leave your feedback on the plugin's [GitHub page](https://github.com/sawyerh/social-bartender).
 
-Contributors on Twitter: @sawyerh, @devinsays, @NickHamze, and @thelukemcdonald
+Contributors (on Twitter): @sawyerh, @devinsays, @NickHamze, and @thelukemcdonald
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 (Oct. 21, 2011) =
 
-* Initial release
+* Fix compatibility issues with WordPress 3.3
 
-= 1.0.1 =
+= 1.0.1 (Sept. 9, 2011) =
 
 * Widget added
+
+= 1.0 (Sept. 4, 2011) =
+
+* Initial release
