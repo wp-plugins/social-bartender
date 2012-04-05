@@ -3,7 +3,7 @@
 Plugin Name: Social Bartender
 Plugin URI: http://wordpress.org/extend/plugins/social-bartender
 Description: A simple solution for adding a list of social network links (images or text) anywhere you want, with one little function or widget. 
-Version: 1.1.0
+Version: 1.2.0
 Author: Sawyer Hollenshead (Shaken &amp; Stirred Web)
 Author URI: http://shakenandstirredweb.com
 License: GPLv2
@@ -50,6 +50,11 @@ function sh_sb_create_menu(){
 		
 	//style actions with page detection
 	add_action( 'admin_print_styles-'.$sh_sb_settings, 'sh_sb_image_admin_styles' );
+	
+	// WP 3.3 Help section
+	if( version_compare( '3.3', get_bloginfo( 'version' ), '<=' ) ):
+		add_action("load-$sh_sb_settings", 'sh_sb_help_page');
+	endif;
 	
 }
 

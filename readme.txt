@@ -3,7 +3,7 @@ Contributors: Sawyer Hollenshead
 Tags: social, social networks, social links, social icons, theme option
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TAPWP9QGK6NDG
 Requires at least: 3.1
-Tested up to: 3.2.1
+Tested up to: 3.3.1
 Stable tag: trunk
 
 A simple solution for adding a list of social network links (images or text) anywhere you want.
@@ -43,6 +43,10 @@ The Social Bartender plugin was created by Shaken and Stirred Web. If you find a
 Contributors (on Twitter): @sawyerh, @devinsays, @NickHamze, and @thelukemcdonald
 
 == Changelog ==
+
+= 1.2.0 =
+
+* Update contextual help to work w/ WP 3.3
 
 = 1.1.0 (Oct. 21, 2011) =
 
